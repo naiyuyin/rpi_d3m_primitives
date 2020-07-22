@@ -9,6 +9,11 @@ setup(
 	description='RPI primitives for D3M submission.',
 	platforms=['Linux', 'MacOS'],
         keywords = 'd3m_primitive',
+	classifiers=[
+        'License :: OSI Approved :: MIT License',
+    	'Operating System :: OS Independent',
+    	'Programming Language :: Python'
+	],
 	entry_points = {
 		'd3m.primitives': [
 			'feature_selection.simultaneous_markov_blanket.AutoRPI = rpi_d3m_primitives.STMBplus_auto:STMBplus_auto',
